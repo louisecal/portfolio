@@ -15,21 +15,31 @@
             font-size: 20px;
         }
 
+        div {
+            display:block;
+        }
+
         .list {
+            float: left;
             width: 550px;
             border-style: solid;
             border-color:slateblue;
             border-width: 2px;
             padding: 5px;
             margin: 20px;
+            
         }
+
         #links {
+            float: right;
             width: 120px;
             height: 500px;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             text-align: center;
+            position: fixed right;
 
         }
+
         #links a {
             display: block;
             height: 20px;
@@ -49,6 +59,9 @@
 </head>
 
 <body>
+
+    <div>
+
     <div class="list">
         <h1>Louise's Coding Practice</h1>
         <ul>
@@ -68,13 +81,16 @@
         </ul>
     </div>
 
+</div>
     <div id="links">
-        <p style="color:coral; font-size: 30px; font-style: oblique;">Links</p>
-        <a style="background-color: lightsalmon;"  href="https://www.linkedin.com/in/louise-calderwood-00862894/">LinkedIn</a>
-        <a style="background-color: salmon;" href="https://github.com/louisecal">Github</a>
-        <a style="background-color: darksalmon;" href="https://twitter.com/LGCalderwood">Twitter</a>
+        <p style="color: darkslategray; font-size: 30px;">Links</p>
+        <a style="background-color: slategrey;"  href="https://www.linkedin.com/in/louise-calderwood-00862894/">LinkedIn</a>
+        <a style="background-color:slateblue;" href="https://github.com/louisecal">Github</a>
+        <a style="background-color: darkslateblue;" href="https://twitter.com/LGCalderwood">Twitter</a>
 
     </div>
+
+    
 </body>
 
     </html>
